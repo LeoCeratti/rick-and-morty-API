@@ -1,0 +1,58 @@
+.header {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  padding: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.pagination-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.pagination-box input {
+  padding: 10px;
+  width: 180px;
+  border-radius: 5px;
+  border: none;
+}
+
+.pagination-box button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #00b5cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.page-info {
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-shadow: 1px 1px 4px black;
+}
